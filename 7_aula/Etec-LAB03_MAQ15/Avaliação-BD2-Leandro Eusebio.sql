@@ -1,7 +1,5 @@
-CREATE DATABASE biblioteca;
 
-USE biblioteca;
-
+CREATE DATABASE IF NOT EXISTS biblioteca;
 CREATE TABLE tabela_usuarios (
     id_usuario INT PRIMARY KEY,
     nome VARCHAR(35) NOT NULL,

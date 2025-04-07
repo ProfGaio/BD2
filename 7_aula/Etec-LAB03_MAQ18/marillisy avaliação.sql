@@ -17,6 +17,7 @@ autor (VARCHAR(100) NOT NULL)
 ano_publicacao (YEAR NOT NULL)
 disponivel (TINYINT(1))
 
+
 CREATE TABLE  emprestimo
  id_emprestimo (INT PRIMARY KEY AUTO_INCREMENT)
  id_usuario (INT FOREIGN KEY referenciando usuario(id_usuario))
